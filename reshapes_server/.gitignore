@@ -1,0 +1,31 @@
+# --- Python Compilation ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environments (The Safe List) ---
+env/
+venv/
+.venv/
+.env
+
+# --- Distribution / Installs ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Unit Tests ---
+.pytest_cache/
+.coverage
